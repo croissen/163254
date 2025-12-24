@@ -1,4 +1,4 @@
-import * as S from "./Home.styles";
+import * as S from "./Sell.styles";
 
 export default function Home() {
   const goForm = () => {
