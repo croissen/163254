@@ -17,11 +17,12 @@ function Header() {
       </Link>
       <S.Nav>
         <ul>
-          <li><Link to="/">HOME</Link></li>
-          <li><Link to="/youtube">YOUTUBE</Link></li>
-          <li><Link to="/shop">SHOP</Link></li>
+          <li><Link to="/album">ALBUM</Link></li>
+          <li><Link to="/style">STYLE</Link></li>
+          <li><Link to="/music">MUSIC</Link></li>
           <li><Link to="/recipe">RECIPE</Link></li>
-          <li><Link to="/">MUSIC</Link></li>
+          <li><Link to="/lab">LAB</Link></li>
+          <li><Link to="/contact">CONTACT</Link></li>
         </ul>
       </S.Nav>
       <div style={{ width: "120px" }} />

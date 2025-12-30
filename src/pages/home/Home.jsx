@@ -5,8 +5,7 @@ export default function Home() {
   return (
     <S.Container>
       <S.Title>
-        우리들의 특별한 이야기,<br />
-        163254.com 에 오신 걸 환영해요!
+        환영해요!
       </S.Title>
       <S.SubTitle>
         
