@@ -2,10 +2,8 @@ import styled from 'styled-components';
 
 export const HeaderContainer = styled.header`
   background-color: #F9F7F5;
-  color: #4A4A4A;
   padding: 1rem 2.5rem;
   display: flex;
-  justify-content: space-between;
   align-items: center;
   box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
   font-family: 'Pretendard', sans-serif;
@@ -16,10 +14,9 @@ export const SiteTitle = styled.h1`
   font-size: 1.8em;
   font-weight: bold;
   margin: 0;
-  color: #7C6A64;
   display: flex;
   align-items: center;
-  gap: 0px;
+  width: 120px;
 `;
 
 export const GreenNumber = styled.span`
@@ -31,12 +28,16 @@ export const PinkNumber = styled.span`
 `;
 
 export const Nav = styled.nav`
+  flex: 1;            
+  display: flex;       
+  justify-content: center; 
   ul {
     list-style: none;
     margin: 0;
     padding: 0;
     display: flex;
     gap: 25px;
+    justify-content: center;
   }
 
   a {
